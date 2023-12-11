@@ -1,12 +1,16 @@
 # mongoose-homework
 
+### Notes
+
+1. To sort users by age provide query parameter "byAge" with one of two values: "ascending" or "descending"
+2. Only owner can update or delete article. To authenticate yourself in Postman provide request header "user_id" as a key with an appropriate id as a value (owner of article).
+
 ### Installation
 
 1. Clone repo
 2. Open the project directory
 3. run `npm install` command
-4. Update `.env` variables
-5. run `npm run dev` command
+4. run `npm run dev` command
 
 ### Task
 
